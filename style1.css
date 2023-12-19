@@ -1,0 +1,174 @@
+html,
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header,
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+}
+
+a
+{
+    color: white;
+}
+
+nav {
+    width: auto;
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+nav p {
+    font-size: 12px;
+    text-align: left;
+}
+
+.content-container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 0 10px;
+    flex: 1 0 auto;
+}
+
+.right-panel {
+    width: 100%;
+    background-color: #e0e0e0;
+    float: right;
+    padding: 10px;
+    height: 230px;
+    margin: 10px 0 0 0;
+}
+
+.left-panel {
+    width: 100%;
+    background-color: #e0e0e0;
+    padding: 10px;
+    height: 100px;
+    margin: 10px 0 0 0;
+}
+
+.left-panel-second {
+    float: left;
+    width: 100%;
+    background-color: #e0e0e0;
+    padding: 10px;
+    height: 100px;
+    margin: 10px 0 0 0;
+}
+
+.aside-panel {
+    width: 10%;
+}
+
+.aside-panel-right {
+    width: 10%;
+}
+
+.main-panel {
+    width: 70%;
+    background-color: #e0e0e0;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.main-content {
+    width: 100%;
+
+}
+
+
+.facebook-icon
+{
+    margin: 10px;
+    float: right;
+    background-image: url(fb.png);
+    height: 64px;
+    width: 64px;
+}
+
+.facebook-icon:hover
+{
+    background-image: url(fb_gray.png);
+}
+
+.instagram-icon
+{
+    margin: 10px;
+    float: right;
+    background-image: url(insta.png);
+    height: 64px;
+    width: 64px;
+}
+
+.instagram-icon:hover
+{
+    background-image: url(insta_gray.png);
+}
+
+.youtube-icon
+{
+    margin: 10px;
+    float: right;
+    background-image: url(youtube.png);
+    height: 64px;
+    width: 64px;
+}
+
+.youtube-icon:hover
+{
+    background-image: url(youtube_gray.png);
+}
+
+.ul-menu-left
+{
+    width: 150px;
+    list-style-type: none;
+}
+.ul-menu-left li{
+    padding: 10px;
+}
+
+.div-menu
+{
+    display: flex;
+}
+
+.ul-menu-center
+{
+    list-style-type: none;
+    width: 150px;
+}
+.ul-menu-center li
+{
+    padding: 10px;
+}
+section {
+    margin-bottom: 20px;
+    background-color: aquamarine;
+    text-align: center;
+    margin: 10px 10px 50px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+
